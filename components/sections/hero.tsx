@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl mb-6 animate-in fade-in slide-in-from-bottom-4 duration-700">
-            {t.hero.greeting} <span className="text-primary">Your Name</span>
+             <span className="text-primary">{t.hero.productName}</span>{t.hero.greeting}
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-200">
             {t.hero.description}

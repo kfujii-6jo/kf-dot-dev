@@ -18,7 +18,8 @@ export const translations = {
       contact: 'Contact'
     },
     hero: {
-      greeting: "Hi, I'm",
+      productName: "Kaisei",
+      greeting: "'s playground",
       description: 'A passionate developer building amazing digital experiences',
       contact: 'Get in Touch',
       viewProjects: 'View Projects'
@@ -90,7 +91,8 @@ export const translations = {
       contact: 'お問い合わせ'
     },
     hero: {
-      greeting: "はじめまして、",
+      productName: "かいかい",
+      greeting: "の遊び場",
       description: '情熱的な開発者として、素晴らしいデジタル体験を創造しています',
       contact: 'お問い合わせ',
       viewProjects: 'プロジェクトを見る'
