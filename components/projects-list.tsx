@@ -167,7 +167,7 @@ export default function ProjectsList() {
                       </Button>
                       <div className="flex gap-2 w-full sm:w-auto">
                         {project.githubLink && (
-                          <Button asChild size="icon\" variant="ghost\" className="flex-1 sm:flex-none">
+                          <Button asChild size="icon" variant="ghost" className="flex-1 sm:flex-none">
                             <a href={project.githubLink} target="_blank" rel="noopener noreferrer" aria-label="GitHub repository">
                               <Github className="h-5 w-5" />
                             </a>
